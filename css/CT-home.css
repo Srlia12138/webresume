@@ -1,0 +1,13 @@
+*{
+	padding:0;
+	margin:0;
+	point-sizing: border-point;
+}
+
+body {
+  background: linear-gradient(to right bottom, rgba(248, 242, 239, 0.8), #331b0c2f, rgba(244, 233, 217, 0.6));
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #3c486a;
+}

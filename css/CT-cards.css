@@ -1,0 +1,134 @@
+.home-main-body {
+  height: 92vh;
+  width: auto;
+}
+
+.cardbody {
+  /* width: 30%; */
+  height: 300px;
+  width: 300px;
+  position:absolute;
+  display: inline-block;
+  margin: 5vh 22vh;
+  /* padding-top: 10vh; */
+  /* background-color: rgba(250, 235, 215, 0.16); */
+  /* border-radius: 50px; */
+}
+
+.cardbody2 {
+  /* width: 30%; */
+  height: 300px;
+  width: 300px;
+  position:absolute;
+  display: inline-block;
+  margin: 5vh 102vh;
+}
+
+.cardbody3 {
+  /* width: 30%; */
+  height: 300px;
+  width: 300px;
+  position:absolute;
+  display: inline-block;
+  margin: 45vh 27vh;
+}
+
+.cardbody4 {
+  /* width: 30%; */
+  height: 300px;
+  width: 300px;
+  position:absolute;
+  display: inline-block;
+  margin: 45vh 107vh;
+}
+
+.card {
+  /* width: 290px; */
+  /* width: 30%; */
+  width: 315px;
+  height: 180px;
+  padding: 0.5rem;
+  margin: 5vh;
+  background: rgba(198, 198, 198, 0.34);
+  border-radius: 30px;
+  /* backdrop-filter: blur(5px); */
+  position:relative;
+  display: inline-block;
+  display: table;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+  border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+  transform: skewX(10deg);
+  transition: .4s;
+  overflow: hidden;
+  color: white;
+}
+
+.card:hover {
+  height: 254px;
+  /* width: 300px; */
+  transform: skew(0deg);
+}
+
+.align {
+  padding: 1rem;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.red {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff605c;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  margin-right: 10px;
+}
+
+.blue {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5cdeff;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  margin-right: 10px;
+}
+
+.yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffbd44;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  margin-right: 10px;
+}
+
+.green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ca4e;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  margin-right: 10px;
+}
+
+.card h1 {
+  text-align: center;
+  margin: 1rem;
+  margin-bottom: 0.8rem;
+  color: rgb(218, 244, 237);
+  font-size: 50px;
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'ZH39';
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1vh;
+}
